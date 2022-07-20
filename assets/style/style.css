@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: rgb(185, 185, 185);
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    
+}
+
+/* ==== Main Page ==== */
+
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+}
+
+nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 50px;
+    
+}
+nav .left-side div :hover {
+    font-size:20px;
+    font-style:oblique;
+    font-weight: 800;
+
+}
+nav .font :hover {
+font-size:20px;
+font-style:oblique;
+font-weight: 800;
+}
+
+nav .left-side img {
+    margin-right: 40px;
+}
+
+nav .left-side a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .right-side {
+    padding-right: 50px;
+    justify-content: end;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(43, 144, 151);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+
+/* ==== Akhir Main Page ==== */
+
+/* ==== Form Contact Me ==== */
+.form-contact-me {
+    width: 70%px
+}
+.form-contact-me .container{
+    margin-top: 10px;
+}
+
+/* .label-input {
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+.form-contact-me div {
+    margin-bottom: 3px;
+}
+
+.form-contact-me div label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.form-contact-me div input ,select ,textarea {
+    width: 98%;
+    margin-top: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+    border-style: solid;
+    border-color: rgb(110, 107, 107);
+    padding: 10px;
+    resize: none;
+    
+}
+
+.form-contact-me button {
+    background-color: rgb(43, 144, 151);
+    color: white;
+    font-size: 16px;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 70%;
+    margin-top: 7px;
+
+}
+
+.form-contact-me button:hover {
+    background-color: rgb(38, 75, 90);
+}
+
+/* ==== Akhir Form Contact Me ==== */
+
+/* ==== Main Page ==== */
+
+.image {
+    
+
+        background-color: white;
+        margin:10px 10px 10px 0;
+        width: 320px;
+        border-radius:14px;
+        border: solid 1px #00000033;
+        padding:0 ; 
+        box-shadow: 0px 0px 30px #00000040;
+}
+.image img{
+    width: 85%; ;
+    border-top-left-radius:14px; 
+    border-top-right-radius:14px;
+}
+.wrapper {
+    width: 1050px;
+    height: 520px;
+    padding: 5px;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0 0 40px black ;
+    background-color: white;
+}
+
+.wrapper .right-side {
+    border-style:none;
+    flex: 40%;
+    padding: 20px;
+
+}
+
+
+
+.wrapper .left-side {
+    flex: 70%;
+    padding-left: 20px;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.wrapper .left-side .skill {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.wrapper .left-side .skill .contact a {
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(95, 170, 175);
+    padding: 5px 25px;
+    border-radius: 45px;
+    margin-left: 0px; 
+    font-size: 21px;    
+}
+.wrapper .left-side .item a {
+    margin-left: 50px;
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700
+
+
+}
+
+.wrapper .left-side p {
+    color: gray;
+}
+
+.wrapper .left-side .sosmed .sosmed-wrapper {
+    display: flex;
+    margin-top: 40px;
+}
+
+.wrapper .left-side .sosmed .sosmed-wrapper a {
+    color: black;
+    size: 90px;
+}
+
+.wrapper .left-side .sosmed .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* ==== Akhir Main Page ==== */
