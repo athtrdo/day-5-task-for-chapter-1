@@ -9,7 +9,7 @@ body{
 }
 
 .container {
-    height: 93vh;
+    height: 94vh;
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
