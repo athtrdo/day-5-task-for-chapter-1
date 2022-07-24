@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+/* ==== Main Page ==== */
+
+nav {
+  display: flex;
+  height: 7vh;
+  background-color: rgb(255, 255, 255);
+}
+
+nav div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+nav .left-side {
+  padding-left: 50px;
+  
+}
+nav .left-side div :hover {
+  font-size:20px;
+  font-style:oblique;
+  font-weight: 800;
+
+}
+nav .font :hover {
+font-size:20px;
+font-style:oblique;
+font-weight: 800;
+}
+
+nav .left-side img {
+  margin-right: 40px;
+}
+
+nav .left-side a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+nav .right-side {
+  padding-right: 50px;
+  justify-content: end;
+}
+
+nav .right-side a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(43, 144, 151);
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+
+/* Project Form */
+.form-project {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 185, 185) ;
+  }
+  
+  .form-project .form-container{
+    display: flex;
+    margin-top: 5px;
+  }
+
+  form {
+    display: block;
+    width: 450px;
+    height: 500px;
+
+  }
+  
+  .form-project .form-container h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .form-project .form-container .input-project input {
+    width: 97%;
+    height: 30px;
+    border-radius: 12px;
+    margin-top: 2px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    border: 1px solid rgb(204, 204, 204);
+  }
+
+  .form-project .form-container {
+    font-weight:bold;
+
+  }
+
+
+  .form-project .form-container .input-date {
+  margin-top: 10px;
+  display: flex;
+  }
+
+  .form-container .input-date div {
+    flex: 50%;
+    
+  }
+
+  .form-project .form-container .input-date input {
+    width: 95%;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 1px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    border: 1px solid rgb(204, 204, 204);
+
+  }
+
+  .form-project .form-container .input-description{
+    margin-top: 10px;
+  }
+  
+  .form-project .form-container .input-description textarea {
+    resize: none;
+    width: 97%;
+    border-radius: 12px;
+    margin-top: 2px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    border: 1px solid rgb(204, 204, 204);
+
+  } 
+  
+  .form-project .form-container .input-tech {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .form-project .form-container .input-tech input{
+    cursor: pointer;
+  }
+
+
+  .form-project .form-container .input-tech .left-checkbox{
+    margin-top: 5px;
+    color: #424242;;
+  }
+  .form-project .form-container .input-tech .left-checkbox img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .form-project .form-container .input-tech .right-checkbox{
+    margin-top: -63px;
+    margin-left: 250px;
+    color: #424242;;
+  }
+  .form-project .form-container .input-tech .right-checkbox img{
+    width: 25px;
+    height: 25px;
+  }
+  
+  .form-project form .input-project-image-group {
+    width: 420px;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  
+  .form-project form .input-project-image-group label p {
+    font-size: 12px;
+  }
+  
+  .form-project form .input-project-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .form-project form .submit-project {
+    text-align: center;
+  }
+  
+  .form-project form button {
+    margin-top: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    background: rgb(43, 144, 151);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .form-project form button:hover {
+    background-color: rgb(38, 75, 90);
+
+  }
+  
+  .blog hr {
+    border: 1px solid #a0a0a0;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  /* project list */
+  .project-list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 450px;
+    
+
+  }
+  
+  .project-list .project-list-item {
+    width: 450PX;
+    padding: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    display: flex;
+    background: #868686;
+    
+  }
+  
+  .project-list .project-list-item .project-image {
+    flex: 1;
+    resize: none;
+  }
+  
+  .project-list .project-list-item .project-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    resize: none;
+  }
+
+  .project-list .project-list-item .project-image textarea {
+    font-size: 12px;
+    width: 400px;
+    height: 230px;
+    background: #747474;
+    border: none;
+  }
+
+  .project-list .project-list-item .project-image a {
+    font-size: 20px;
+    text-decoration: none;
+    color:black ;
+  }
+  
+  .project-list .project-list-item .project-image .image .icontech .icon-wrapper {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+ .project-list .project-list-item .project-image .image .icontech .icon-wrapper i {
+    size: 90px;
+}
+
+.project-list .project-list-item .project-image .image .icontech .icon-wrapper .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.button  {
+    margin-top: 10px;
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .button div{
+    flex: 50%;
+    margin-top: 10px;
+  }
+
+  .button .left-button button:hover{
+    background:rgb(38, 75, 90) ;
+  }
+  .button .right-button button:hover{
+    background:rgb(38, 75, 90) ;
+  }
+  .button .left-button button{
+    margin-top: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    background: rgb(43, 144, 151);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+    
+  }
+  .button .right-button button{
+    
+    margin-top: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    background: rgb(43, 144, 151);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+    
+  }
+
+
+  
+  /* project Detail */
+  .page {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    height: auto;
+    background-color:  rgb(185, 185, 185);
+}
+.page .project-detail {
+    display: flex;
+    margin-top: 40px;
+}
+.img-detail {
+    justify-content: flex-start;
+}
+.detail-info {
+    width: 500px;
+    margin-left: 110px;
+}
+.durasi-info div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.date-info img {
+    width: 25px;
+    padding-right: 5px;
+}
+.date-info label {
+    padding: 10px;
+}
+.clock {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.clock img {
+    width: 25px;
+    margin-right: 15px;
+}
+.tech-info {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.tech-info .left-info div{
+    display: flex;
+   
+    padding: 5px;
+}
+.left-info img {
+    width: 25px;
+    margin-right: 10px;
+}
+.right-info img {
+    width: 25px;
+    margin-right: 10px;
+}
+.tech-info .right-info div{
+    display: flex;
+    /* align-items: center; */
+    padding: 5px;
+}
+.desc {
+    margin-top: 60px;
+}
+.desc p {
+    text-align: justify;
+}

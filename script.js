@@ -41,7 +41,7 @@ function submitForm() {
         return
     } 
 
-    console.log('Semua form telah diisi ✅');
+    alert('Are you sure?');
 
     // Display Mail Software
     console.log('Open Mail');

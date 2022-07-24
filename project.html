@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Project Page</title>
+    <link rel="stylesheet" href="./assets/style/StyleProject.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="left-side">
+          <img src="./assets/img/logo.png" alt="">
+          <div class="font">
+              <a href="index.html">Home</a>
+              <a href="project.html">My project</a>
+          </div>
+      </div>
+      <div class="right-side">
+          <a href="contact-me.html">Contact Me</a>
+      </div>
+    </nav>
+
+    <!-- Form ---- project -->
+      <div class="form-project">
+        <div class="form-container">
+          <form>
+            <h1>ADD MY PROJECT</h1>
+            <div class="input-project">
+              <label for="input-project-name">Project Name</label>
+              <input id="input-project-name" />
+            </div>
+            <div class="input-date">
+              <div class="left-date">
+                <label for="input-date-start">Start Date</label>
+                <input id=input-date-start type="date"/>
+              </div>
+              <div class="right-date">
+                <label for="input-date-end">End Date</label>
+                <input id="input-date-end" type="date"/>
+              </div>
+            </div>
+            <div class="input-description">
+              <label for="input-project-description">Description</label>
+              <textarea id="input-project-description" rows="8"></textarea>
+            </div>
+            <div class="input-tech">
+                  <label for="input-project-technologies">Technologies</label>
+                  <div class="left-checkbox" id="input-project-technologies">
+                      <div>
+                        <input type="checkbox" id="Tech1" value="NextJS" >
+                        <label for="Tech1" style="cursor:pointer"><img src="./assets/img/Next.png" alt=""> NextJS</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Tech2" value="Typescript" >
+                        <label for="Tech2" style="cursor:pointer"><img src="./assets/img/TS.png" alt=""> Typescript</label>
+                      </div>  
+                  </div>
+                  <div class="right-checkbox">
+                      <div>
+                        <input type="checkbox" id="Tech3" value="ReactJS" >
+                        <label for="Tech3" style="cursor:pointer"><img src="./assets/img/React.png" alt=""> ReactJS</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Tech4" value="NodeJS" >
+                        <label for="Tech4" style="cursor:pointer"><img src="./assets/img/Node.png" id=""> NodeJS</label>
+                      </div>
+                  </div>  
+            </div>
+            <div class="input-image">
+              <label>Upload Image</label>
+                <div class="input-project-image-group">
+                  <label for="input-project-image">
+                    <p style="font-weight:400; ">Attach File</p>
+                    <img src="./assets/img/file.png" alt="file" />
+                  </label>
+                  <input type="file" id="input-project-image" hidden/>
+                </div>
+            </div>
+            <div class="submit-project">
+              <button type="button" class="action-button" id="submit" onclick="addProject()">submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+        <hr class="line" />
+        <br>
+        <h1 style="text-align: center;">My Project</h1>
+      
+      <div id="contents" class="project-list">
+        <!-- dynamic content would be here -->
+
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
